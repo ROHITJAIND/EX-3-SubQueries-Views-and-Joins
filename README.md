@@ -1,4 +1,4 @@
-# EX 3 SubQueries, Views and Joins 
+# EX-03 SubQueries, Views and Joins 
 ### Aim:
 To view implement SubQueries, Views and Joins.
 #### Create employee Table
