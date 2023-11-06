@@ -1,6 +1,6 @@
 # EX-03 SubQueries, Views and Joins 
 ### Aim:
-To view implement SubQueries, Views and Joins.
+To view implement SubQueries, Views and Joins.&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;   **DATE :** 08.08.2023
 #### Create employee Table
 ```sql
 CREATE TABLE EMP (EMPNO NUMBER(4) PRIMARY KEY,ENAME VARCHAR2(10),JOB VARCHAR2(9),MGR NUMBER(4),HIREDATE DATE,SAL NUMBER(7,2),COMM NUMBER(7,2),DEPTNO NUMBER(2));
@@ -117,7 +117,7 @@ UPDATE EMP SET sal = sal * 1.1 WHERE job = 'CLERK';
 create view empv5 as select EMPNO,ENAME,SALARY,JOB from EMP;
 ```
 ##### OUTPUT:
-![Screenshot 2023-09-29 171957](https://github.com/ROHITJAIND/EX-3-SubQueries-Views-and-Joins/assets/118707073/be0ccabb-4c4c-43bb-910e-b5a1c08ef992)
+<img height=15% width=80% src="https://github.com/ROHITJAIND/EX-3-SubQueries-Views-and-Joins/assets/118707073/be0ccabb-4c4c-43bb-910e-b5a1c08ef992">
 
 #### Create a Customer1 Table
 ```sql
@@ -180,10 +180,22 @@ select s.name,c.cust_name,c.city,s.commission from salesman1 s right join custom
 ```
 
 ##### OUTPUT:
+<table>
+<tr>
+<td width=50%>
+
+
 - Left Join:<br>
 ![Screenshot 2023-09-29 173756](https://github.com/ROHITJAIND/EX-3-SubQueries-Views-and-Joins/assets/118707073/55269f4a-2362-4e22-a32a-f12e403328bb)
+</td>
+<td>
+
+ 
 - Right Join:<br>
 ![Screenshot 2023-09-29 173913](https://github.com/ROHITJAIND/EX-3-SubQueries-Views-and-Joins/assets/118707073/4c457c84-8c15-4121-ad37-e2c1292dcab3)
+</td>
+</tr>
+</table>
 
 ### Result:
 To create a database and implementation of views,subqueries and joins is executed successfully.
